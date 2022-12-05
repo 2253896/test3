@@ -1,0 +1,56 @@
+/*feuilles de styles principal*/
+body{
+    font-family: 'Trebuchet MS',  sans-serif;
+    background-color: antiquewhite;
+}
+header , #main, footer {
+    padding-left: 20%;
+    padding-right: 20%;
+    min-width: 400px;/*utiliser pour tp2*/
+	max-width: 800px; 
+    
+}
+header, #main{
+    display: flex;
+    flex-direction: column;
+   align-content: space-between;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    background-color: black;
+    color: white;
+    height: 350px;
+    width: 100%;
+}
+article{
+    border: solid 1px;
+}
+.entete {
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+}
+#priciapl figure:nth-child(even){
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  footer dl{
+    flex: 0 1 20%;
+  }
+
+
+
+
+
+
+
